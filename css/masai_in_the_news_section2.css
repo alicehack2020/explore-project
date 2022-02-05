@@ -1,0 +1,91 @@
+.masai_in_the_news_section2 h1,.right h2{
+    margin:0;
+    padding: 0;
+ 
+}
+ 
+
+.masai_in_the_news_section2{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-left:2%;
+    margin-right:2%;
+    margin-top: 3%;
+    height: 100vh;
+    text-align: center;
+    color: white;   
+    flex-wrap: wrap;
+
+}
+
+.masai_in_the_news_section2 img{
+    width: 200px;
+}
+
+.masai_in_the_news_section2 .right{
+    background-color: rgb(104, 89, 192);
+    flex-basis: 48%;
+}
+
+
+.masai_in_the_news_section2 .left,.right{
+     flex-basis: 48%;
+}
+.masai_in_the_news_section2 .right{
+     flex-basis: 48%;
+}
+
+.right,.high,.average,.placement{
+    border-radius: 20px;
+}
+
+.right{
+    background-color:rgb(95, 108, 185) ;
+    height: 80%;
+}
+.placement{
+    background-color: rgb(0, 47, 255);
+}
+.average{
+    background-color: rgb(91, 176, 179);
+}
+.high{
+    background-color: rgb(108, 194, 164);
+    margin-left: 20px;
+}
+
+.average img ,.high img{
+   width: 80px;
+}
+ 
+.average img{
+    margin-top: 5px;
+ }
+.bottom ,.placement{
+    height: 40%;
+}
+.bottom{
+    display: flex;
+    margin-top: 10px;
+}
+.left{
+    align-items: center;
+   
+}
+.right img{
+    width: 400px;
+}
+#mark2{
+    margin-top: 10px;
+    padding: 10px;
+    width: 150px;
+    height: auto;
+    background-color:rgb(95, 108, 185) ;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
