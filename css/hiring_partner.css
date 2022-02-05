@@ -1,0 +1,23 @@
+.hiring_partner{
+    text-align: center;
+    height: 400px;
+    background-color: rgb(250, 229, 232);
+    padding-top: 20px;
+    width: 100%;
+}
+.hiring_partner h3{
+    padding: 0;
+    color: grey;
+}
+.hiring_partner h2{
+    margin: 0;
+    padding: 0;
+}
+.s1{
+    display: flex;
+}
+.s1 img{
+    height: 100px;
+    padding: 20px;
+    border-radius: 80%;
+}

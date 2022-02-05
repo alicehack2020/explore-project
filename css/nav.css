@@ -1,0 +1,43 @@
+.announce{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#reg{
+    color: red;
+}
+
+nav{
+    width: 90%;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    margin: 20px;
+}
+.menu{
+    font-size: 20px;
+    margin: auto;
+    display: flex;
+    align-content: space-between;
+}
+.menu span{
+    margin-left: 50px;
+}
+
+#Login{
+    color: red;
+    border-radius: 5px;
+    border: 2px solid red;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-top: -8px;
+}
+.banner{
+  height: auto;
+  width: 100%;
+ }

@@ -1,0 +1,45 @@
+.alinumi_review{
+    text-align: center;
+    width: auto;
+   
+}
+.alunumi_review_list{
+    display: flex;
+    align-content: space-between;
+}
+.comp_logo{
+    width: 100px;
+}
+.s1_a{
+ background-color: rgb(204, 231, 222);
+ width: 300px;
+ text-align: left;
+ text-align: justify;
+ border-radius: 10px;
+ margin-left: 30px;
+
+}
+.student1{
+    border-radius: 20px;
+}
+.student_review{
+    margin-top: -20%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(204, 231, 222);
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+}
+
+.student1>img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: auto;
+}
+#last_img{
+    height: 300px;
+}
+#apply{
+    margin-top: 20px;
+}
