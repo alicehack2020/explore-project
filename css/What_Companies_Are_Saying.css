@@ -1,0 +1,27 @@
+.what_conpines_are_saying{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.company_main{
+    margin-top: 20%;
+
+}
+.ceo1>img{
+    width: 70px;
+    border-radius: 10px;
+}
+.compaines_says{
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px white;
+}
+.ceo1{
+    display: flex;
+    align-items: center;
+}
