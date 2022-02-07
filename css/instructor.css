@@ -1,0 +1,29 @@
+.instructor{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(2,1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100vh;
+    row-gap: 40px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.instructor_img img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+}
+.instructor_img{
+  width: 200px; 
+  align-items: center;
+}
+.instructor_box{
+    box-shadow: 5px 5px rgb(247, 246, 244);
+    border-radius: 20px;
+}
+
+.instructor_box1{
+    grid-column: 3/4;
+}

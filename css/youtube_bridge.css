@@ -1,0 +1,30 @@
+.youtube_bridge{
+    height: 80vh;
+    background-color: antiquewhite;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.youtube_heading>h1{
+    margin: 40px;
+    text-align: left;
+}
+.youtube_heading>p{
+    margin: 50px;
+    text-align: left;
+}
+
+.youtube_video{
+    grid-row: 1/-1;
+    grid-column: 2/-1;
+  
+}
+.youtube_video iframe{
+    width: 45vw;
+    height: 80vh;
+    border-radius: 50px;
+}
